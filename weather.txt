@@ -24,3 +24,8 @@ print ("Current temperature is: {:.2f} deg C".format(temp_city))
 print ("Current weather desc  :",weather_desc)
 print ("Current Humidity      :",hmdt, '%')
 print ("Current wind speed    :",wind_spd ,'kmph')
+
+
+Output:
+
+{"coord":{"lon":77.2167,"lat":28.6667},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":310.2,"feels_like":312.94,"temp_min":309.43,"temp_max":310.2,"pressure":1001,"humidity":36},"visibility":4000,"wind":{"speed":2.57,"deg":120},"clouds":{"all":40},"dt":1624461156,"sys":{"type":1,"id":9165,"country":"IN","sunrise":1624406052,"sunset":1624456341},"timezone":19800,"id":1273294,"name":"Delhi","cod":200}
